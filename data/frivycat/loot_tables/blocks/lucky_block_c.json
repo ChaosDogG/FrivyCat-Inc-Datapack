@@ -1,0 +1,532 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:stone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:deepslate",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:tuff",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:smooth_basalt",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:calcite",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 50,
+            "name": "minecraft:chests/abandoned_mineshaft"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 25,
+            "name": "minecraft:chests/stronghold_crossing"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:budding_amethyst"
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_coal_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_copper_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_iron_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_gold_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_diamond_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_lapis_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_redstone_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 15,
+                "name": "minecraft:deepslate_emerald_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "min": 1,
+                      "max": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:diamond_pickaxe",
+                "functions": [
+                  {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                      "text": "Miner's Delight",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false,
+                      "underlined": true
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_enchantments",
+                    "enchantments": {
+                      "minecraft:efficiency": 10,
+                      "minecraft:fortune": 10,
+                      "minecraft:unbreaking": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 5,
+                "name": "minecraft:diamond_pickaxe",
+                "functions": [
+                  {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                      "text": "Ultra Block Grabber 9001",
+                      "color": "gold",
+                      "bold": true,
+                      "italic": false,
+                      "underlined": true
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_enchantments",
+                    "enchantments": {
+                      "minecraft:efficiency": 10,
+                      "minecraft:silk_touch": 1,
+                      "minecraft:unbreaking": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:small_dripleaf",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:moss_block",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:spore_blossom",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:rooted_dirt",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 20
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:pointed_dripstone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:glow_berries",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:light_blue_shulker_box",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Mega Materials!!",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockEntityTag:{Lock:\"Lock Pick\",LootTable:\"frivycat:chests/mega_materials\"}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:debug_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Lock Pick"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:sea_pickle",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "HOLY DICK",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{RepairCost: 1023, Enchantments: [{lvl: 10s, id: \"minecraft:depth_strider\"}, {lvl: 10s, id: \"minecraft:feather_falling\"}, {lvl: 10s, id: \"minecraft:flame\"}, {lvl: 10s, id: \"minecraft:impaling\"}, {lvl: 10s, id: \"minecraft:infinity\"}, {lvl: 10s, id: \"minecraft:looting\"}, {lvl: 10s, id: \"minecraft:loyalty\"}, {lvl: 10s, id: \"minecraft:projectile_protection\"}, {lvl: 10s, id: \"minecraft:punch\"}, {lvl: 10s, id: \"minecraft:sharpness\"}]}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:player",
+                  "nbt": "{Tags:[\"adult\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:tnt",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 10
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{BlockStateTag:{unstable:\"true\"}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Unstable TNT",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 30
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "effects": {
+                        "luck": {
+                          "amplifier": {
+                            "min": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:coarse_dirt",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Shit",
+                  "italic": false
+                },
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "type": "minecraft:player",
+                      "nbt": "{Tags:[\"adult\"]}"
+                    }
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Garbage",
+                  "italic": false
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:potato",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 50
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "frivycat:chests/capsules",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "frivycat:chests/magic_loot"
+          }
+        ]
+      }
+    ]
+  }
