@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{carriedBlockState:{Name:\"minecraft:light\",Properties:{level:\"0\"}}}"
+  }
+}
