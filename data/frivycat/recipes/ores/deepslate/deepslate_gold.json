@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+      "item": "minecraft:gold_ore"
+    },
+    "addition": {
+      "item": "minecraft:deepslate"
+    },
+    "result": {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  }
