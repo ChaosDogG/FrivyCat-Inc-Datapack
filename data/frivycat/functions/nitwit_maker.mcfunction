@@ -1,0 +1,1 @@
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run execute as @e[type=villager,nbt=!{VillagerData:{profession:"minecraft:nitwit"}},distance=..5] run data merge entity @s {VillagerData:{profession:nitwit},Offers:{}}

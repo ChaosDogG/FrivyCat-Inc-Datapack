@@ -1,0 +1,4 @@
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run execute as @e[type=#frivycat:lucky,distance=..50] run attribute @s generic.max_health base set 1
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run execute as @e[type=#frivycat:lucky,distance=..50] run attribute @s generic.movement_speed base set 0.25
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run execute as @e[type=#frivycat:lucky,distance=..50] run attribute @s generic.flying_speed base set 0.25
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run execute as @e[type=#frivycat:lucky,distance=..50] run attribute @s generic.attack_damage base set 0

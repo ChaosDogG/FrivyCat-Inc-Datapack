@@ -1,0 +1,19 @@
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:1}}}] run function frivycat:gems/frame/auto_convert
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:2}}}] run function frivycat:gems/frame/nitwit_be_gone
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run function frivycat:gems/nitwit_maker
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:4}}}] run function frivycat:madness
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:5}}}] run function frivycat:gems/frame/auto_farm
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run function frivycat:gems/frame/golem_enhance
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:7}}}] run function frivycat:gems/frame/spawner_overclock
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:8}}}] run function frivycat:gems/frame/spawner_reset
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:9}}}] run function frivycat:gems/frame/eg
+
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:1}}}] run function frivycat:gems/auto_convert
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:2}}}] run function frivycat:gems/gframe/nitwit_maker
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run function frivycat:gems/nitwit_maker
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:4}}}] run function frivycat:madness
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:5}}}] run function frivycat:gems/gframe/auto_amethyst
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run function frivycat:gems/gframe/villager_invulnerability
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:7}}}] run function frivycat:gems/spawner_overclock
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:8}}}] run function frivycat:gems/spawner_reset
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:9}}}] run function frivycat:gems/eg
