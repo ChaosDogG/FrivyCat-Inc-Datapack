@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SEP",
+        " T "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cod"
+        },
+        "S": {
+            "item": "minecraft:salmon"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "P": {
+            "item": "minecraft:pufferfish"
+        },
+        "T": {
+            "item": "minecraft:tropical_fish"
+        }
+    },
+    "result": {
+        "item": "minecraft:axolotl_spawn_egg",
+        "count": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:squid_spawn_egg"
+    },
+    "addition": {
+        "item": "minecraft:glow_ink_sac"
+    },
+    "result": {
+        "item": "minecraft:glow_squid_spawn_egg"
+    }
+}
