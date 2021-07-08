@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tropical_fish",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:tropical_fish_spawn_egg"
+  ]
+}
