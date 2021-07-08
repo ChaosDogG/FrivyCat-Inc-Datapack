@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:square",
+      "config": {}
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:range",
+          "config": {
+            "height": {
+              "type": "minecraft:trapezoid",
+              "min_inclusive": {
+                "absolute": 8
+              },
+              "max_inclusive": {
+                "absolute": 24
+              }
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:scattered_ore",
+          "config": {
+            "size": 6,
+            "discard_chance_on_air_exposure": 1,
+            "targets": [
+              {
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_nether"
+                },
+                "state": {
+                  "Name": "minecraft:ancient_debris"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

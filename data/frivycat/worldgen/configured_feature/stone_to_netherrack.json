@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:heightmap",
+      "config": {
+        "heightmap": "WORLD_SURFACE_WG"
+      }
+    },
+    "feature": {
+      "type": "minecraft:replace_single_block",
+      "config": {
+        "targets": [
+          {
+            "target": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stone"
+            },
+            "state": {
+              "Name": "minecraft:netherrack"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

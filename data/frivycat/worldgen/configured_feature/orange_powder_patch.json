@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:count",
+        "config": {
+          "count": 3
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:decorated",
+            "config": {
+              "outer": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "inner": {
+                "type": "minecraft:heightmap",
+                "config": {
+                  "heightmap": "WORLD_SURFACE_WG"
+                }
+              }
+            }
+          },
+          "feature": {
+            "type": "minecraft:disk",
+            "config": {
+              "state": {
+                "Name": "minecraft:orange_concrete_powder"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 2,
+                  "max_inclusive": 8
+                }
+              },
+              "half_height": 2,
+              "targets": [
+                {
+                  "Name": "minecraft:sand"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,112 @@
+{
+  "surface_builder": "frivycat:do",
+  "depth": -1,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "temperature_modifier": "none",
+  "category": "ocean",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 1835176,
+    "fog_color": 1152,
+    "water_color": 6244881,
+    "water_fog_color": 6773518,
+    "grass_color": 72569,
+    "foliage_color": 199006,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:underwater"
+      },
+      "probability": 0.025
+    }
+  },
+  "starts": [
+    "minecraft:monument",
+    "minecraft:village_plains",
+    "minecraft:buried_treasure",
+    "minecraft:shipwreck",
+    "minecraft:ocean_ruin_cold",
+    "minecraft:ocean_ruin_warm"
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:villager",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 20
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:ocean_cave"
+    ],
+    "liquid": [
+      "minecraft:underwater_canyon",
+      "minecraft:underwater_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:ore_copper",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone"
+    ],
+    [
+      "minecraft:trees_water",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:seagrass_normal",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold",
+      "minecraft:sea_pickle",
+      "minecraft:bonus_chest"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}
