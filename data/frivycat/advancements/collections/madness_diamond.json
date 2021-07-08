@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{Enchantments:[{id:69}],CustomModelData:11}"
+    },
+    "title": {
+      "text": "Hysterical laughter",
+      "color": "light_purple",
+      "italic": true
+    },
+    "description": {
+      "text": "Get a Madness Diamond"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "frivycat:collections/special_diamonds",
+  "criteria": {
+    "collect_madness_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "count": {
+              "min": 1
+            },
+            "nbt": "{CustomModelData:11}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "frivycat:madness_diamond_fix"
+  }
+}

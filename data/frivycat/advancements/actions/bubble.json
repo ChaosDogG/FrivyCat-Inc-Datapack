@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:bubble_coral_block"
+      },
+      "title": {
+        "text": "Bubble?",
+        "color": "dark_aqua",
+        "bold": false
+      },
+      "description": {
+        "text": "Swim into a bubble collumn"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:actions/root",
+    "criteria": {
+      "swim": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "block": "minecraft:bubble_column"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "swim"
+      ]
+    ]
+  }

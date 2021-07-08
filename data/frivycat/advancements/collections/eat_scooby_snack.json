@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cookie",
+        "nbt": "{Enchantments:[{id:69}]}"
+      },
+      "title": {
+        "text": "Ree-hee-hee-hee-hee-hee-hee",
+        "color": "dark_red",
+        "bold": false
+      },
+      "description": {
+        "text": "Eat the cookie"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "frivycat:collections/get_scooby_snacks",
+    "criteria": {
+      "eat": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "eat"
+      ]
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{Enchantments:[{id:69}],CustomModelData:8}"
+    },
+    "title": {
+      "text": "Let firepower end the war",
+      "color": "dark_green"
+    },
+    "description": {
+      "text": "Get a Veteran Diamond"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "frivycat:collections/special_diamonds",
+  "criteria": {
+    "collect_veteran_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "count": {
+              "min": 1
+            },
+            "nbt": "{CustomModelData:8}"
+          }
+        ]
+      }
+    }
+  }
+}

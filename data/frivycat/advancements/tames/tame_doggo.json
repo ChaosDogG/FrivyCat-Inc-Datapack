@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": {
+      "text": "So close, yet so far",
+      "color": "green",
+      "bold": false
+    },
+    "description": {
+      "text": "Tame a wolf"
+    },
+    "background": "minecraft:textures/block/bone_block_top.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "frivycat:tames/root",
+  "criteria": {
+    "tame": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "frivycat:wolf_spawn_egg"
+    ]
+  }
+}

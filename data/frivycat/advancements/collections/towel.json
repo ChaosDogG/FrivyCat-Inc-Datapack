@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:white_carpet",
+        "nbt": "{Enchantments:[{id:69}]}"
+      },
+      "title": {
+        "text": "Bring a towel",
+        "color": "gray"
+      },
+      "description": {
+        "text": "Get a carpet of any color"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:collections/fish",
+    "criteria": {
+      "collect": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "minecraft:carpets",
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect"
+      ]
+    ]
+  }

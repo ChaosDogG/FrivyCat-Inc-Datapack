@@ -1,0 +1,42 @@
+{
+  "parent": "frivycat:kills/root",
+  "criteria": {
+    "enchant_board": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "lucky_blocks": {
+                "min": 1000
+              }
+            }
+          }
+        ],
+        "block": "minecraft:player_head"
+      }
+    },
+    "enchant_board_2": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "lucky_blocks": {
+                "min": 1000
+              }
+            }
+          }
+        ],
+        "block": "minecraft:player_wall_head"
+      }
+    }
+  },
+  "rewards": {
+    "function": "frivycat:madness"
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:command_block"
+      },
+      "title": {
+        "text": "Alright, let's write commands",
+        "color": "gold",
+        "bold": false
+      },
+      "description": {
+        "text": "Get a command block"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "frivycat:collections/knowledge",
+    "criteria": {
+      "collect": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:command_block"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "frivycat:chain_command_block",
+        "frivycat:command_block_minecart"
+      ]
+    }
+  }

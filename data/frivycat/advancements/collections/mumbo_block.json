@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:redstone_block"
+      },
+      "title": {
+        "text": "Hello everyone, this is Mumbo, as a block apparently",
+        "color": "red"
+      },
+      "description": {
+        "text": "Get a redstone block"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:collections/root",
+    "criteria": {
+      "collect": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:redstone_block"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect"
+      ]
+    ]
+  }

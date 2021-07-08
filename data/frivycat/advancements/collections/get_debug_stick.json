@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:debug_stick"
+      },
+      "title": {
+        "text": "Woah! This is neat!",
+        "color": "gold",
+        "bold": false
+      },
+      "description": {
+        "text": "Get a hold of a debug stick"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "frivycat:collections/root",
+    "criteria": {
+      "collect": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:debug_stick"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect"
+      ]
+    ]
+  }

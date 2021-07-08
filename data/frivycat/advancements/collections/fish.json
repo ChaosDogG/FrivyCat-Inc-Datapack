@@ -1,0 +1,146 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:salmon",
+        "nbt": "{Enchantments:[{id:69}]}"
+      },
+      "title": {
+        "text": "Thanks for all the fish",
+        "color": "dark_blue"
+      },
+      "description": {
+        "text": "Get all fish types (egg/item/bucket)"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "frivycat:collections/root",
+    "criteria": {
+      "collect1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cod"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:salmon"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:tropical_fish"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:pufferfish"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "collect2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cod_bucket"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:salmon_bucket"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:tropical_fish_bucket"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:pufferfish_bucket"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "collect3": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cod_spawn_egg"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:salmon_spawn_egg"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:tropical_fish_spawn_egg"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:pufferfish_spawn_egg"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect1",
+        "collect2",
+        "collect3"
+      ]
+    ]
+  }

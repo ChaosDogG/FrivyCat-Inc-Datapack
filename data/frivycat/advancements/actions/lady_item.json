@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "text": "She has what?! XD",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Give a lady a funny pickle"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "frivycat:actions/root",
+  "criteria": {
+    "give_lady1": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie"
+        },
+        "item": {
+          "items": [
+            "minecraft:sea_pickle"
+          ]
+        }
+      }
+    },
+    "give_lady2": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:giant"
+        },
+        "item": {
+          "items": [
+            "minecraft:sea_pickle"
+          ]
+        }
+      }
+    },
+    "give_lady3": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk"
+        },
+        "item": {
+          "items": [
+            "minecraft:sea_pickle"
+          ]
+        }
+      }
+    },
+    "give_lady4": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:drowned"
+        },
+        "item": {
+          "items": [
+            "minecraft:sea_pickle"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "give_lady1",
+      "give_lady2",
+      "give_lady3",
+      "give_lady4"
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:feather"
+      },
+      "title": {
+        "text": "Tickle tickle!",
+        "color": "light_purple"
+      },
+      "description": {
+        "text": "Get a feather"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:collections/root",
+    "criteria": {
+      "collect": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:feather"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "frivycat:chicken_spawn_egg",
+        "frivycat:chicken_spawn_egg2"
+      ]
+    }
+  }

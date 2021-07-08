@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:donkey_spawn_egg",
+        "nbt": "{Enchantments:[{id:69}]}"
+      },
+      "title": {
+        "text": "I'm makin' waffles!",
+        "color": "gray",
+        "bold": false
+      },
+      "description": {
+        "text": "Tame a donkey"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "frivycat:tames/tame_llama",
+    "criteria": {
+      "tame": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:donkey"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "tame"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "frivycat:donkey_spawn_egg"
+      ]
+    }
+  }

@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "title": {
+        "text": "Polly want some seeds",
+        "color": "red",
+        "bold": false
+      },
+      "description": {
+        "text": "Tame a parrot"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:tames/tame_doggo",
+    "criteria": {
+      "tame": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:parrot"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "tame"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "frivycat:parrot_spawn_egg"
+      ]
+    }
+  }

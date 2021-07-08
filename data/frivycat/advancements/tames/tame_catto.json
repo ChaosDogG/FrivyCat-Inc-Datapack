@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cod",
+        "nbt": "{Enchantments:[{id:69}]}"
+      },
+      "title": {
+        "text": "HAHA! YA DID IT!",
+        "color": "green",
+        "bold": false
+      },
+      "description": {
+        "text": "Tame a cat"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "frivycat:tames/tame_donkey",
+    "criteria": {
+      "tame": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cat"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "tame"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "frivycat:cat_spawn_egg1",
+        "frivycat:cat_spawn_egg2",
+        "frivycat:ocelot_spawn_egg"
+      ]
+    }
+  }

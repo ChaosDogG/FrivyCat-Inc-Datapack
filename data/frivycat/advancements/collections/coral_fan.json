@@ -1,0 +1,121 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:tube_coral"
+      },
+      "title": {
+        "text": "Oh, pretty!",
+        "color": "light_purple"
+      },
+      "description": {
+        "text": "Collect all 5 coral/coral fans"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:collections/root",
+    "criteria": {
+      "collect1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:brain_coral_fan"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:bubble_coral_fan"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:fire_coral_fan"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:horn_coral_fan"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:tube_coral_fan"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      },
+      "collect2": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:brain_coral"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:bubble_coral"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:fire_coral"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:horn_coral"
+              ],
+              "count": {
+                "min": 1
+              }
+            },
+            {
+              "items": [
+                "minecraft:tube_coral"
+              ],
+              "count": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "collect1",
+        "collect2"
+      ]
+    ]
+  }

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond",
+      "nbt": "{Enchantments:[{id:69}],CustomModelData:3}"
+    },
+    "title": {
+      "text": "Why do you have this? How did you get it?!",
+      "color": "gray"
+    },
+    "description": {
+      "text": "Get a Conspiracy Diamond"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "frivycat:collections/special_diamonds",
+  "criteria": {
+    "collect_dark_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "count": {
+              "min": 1
+            },
+            "nbt": "{CustomModelData:3}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:llama_spawn_egg"
+      },
+      "title": {
+        "text": "LLAMA-llama-llama-llama",
+        "color": "yellow",
+        "bold": false
+      },
+      "description": {
+        "text": "Tame a llama"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "frivycat:tames/tame_birb",
+    "criteria": {
+      "tame": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+          "entity": {
+            "type": "#frivycat:llamas"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "tame"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "frivycat:llama_spawn_egg",
+        "frivycat:trader_llama_spawn_egg"
+      ]
+    }
+  }
