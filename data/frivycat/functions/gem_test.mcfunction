@@ -1,6 +1,6 @@
 execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:1}}}] run function frivycat:gems/frame/auto_convert
 execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:2}}}] run function frivycat:gems/frame/nitwit_be_gone
-execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run function frivycat:gems/nitwit_maker
+execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run function frivycat:gems/frame/scream_asmr
 execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:4}}}] run function frivycat:madness
 execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:5}}}] run function frivycat:gems/frame/auto_farm
 execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run function frivycat:gems/frame/golem_enhance
@@ -10,7 +10,7 @@ execute at @e[type=item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{Cu
 
 execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:1}}}] run function frivycat:gems/auto_convert
 execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:2}}}] run function frivycat:gems/gframe/nitwit_maker
-execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run function frivycat:gems/nitwit_maker
+execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:3}}}] run function frivycat:gems/gframe/scream_asmr_but_not
 execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:4}}}] run function frivycat:madness
 execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:5}}}] run function frivycat:gems/gframe/auto_amethyst
 execute at @e[type=glow_item_frame,nbt={Item:{id:"minecraft:emerald",Count:1b,tag:{CustomModelData:6}}}] run function frivycat:gems/gframe/villager_invulnerability
