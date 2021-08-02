@@ -2,25 +2,55 @@
   "type": "minecraft:decorated",
   "config": {
     "decorator": {
-      "type": "minecraft:heightmap",
+      "type": "minecraft:count",
       "config": {
-        "heightmap": "WORLD_SURFACE_WG"
+        "count": 256
       }
     },
     "feature": {
-      "type": "minecraft:replace_single_block",
+      "type": "minecraft:decorated",
       "config": {
-        "targets": [
-          {
-            "target": {
-              "predicate_type": "minecraft:block_match",
-              "block": "minecraft:stone"
+        "decorator": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:range",
+              "config": {
+                "height": {
+                  "type": "minecraft:uniform",
+                  "min_inclusive": {
+                    "absolute": 0
+                  },
+                  "max_inclusive": {
+                    "below_top": 0
+                  }
+                }
+              }
             },
-            "state": {
-              "Name": "minecraft:end_stone"
+            "feature": {
+              "type": "minecraft:ore",
+              "config": {
+                "size": 64,
+                "discard_chance_on_air_exposure": 0,
+                "targets": [
+                  {
+                    "target": {
+                      "predicate_type": "minecraft:tag_match",
+                      "tag": "minecraft:base_stone_overworld"
+                    },
+                    "state": {
+                      "Name": "minecraft:end_stone"
+                    }
+                  }
+                ]
+              }
             }
           }
-        ]
+        }
       }
     }
   }
