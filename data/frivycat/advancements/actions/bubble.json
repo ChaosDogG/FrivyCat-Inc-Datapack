@@ -9,7 +9,7 @@
         "bold": false
       },
       "description": {
-        "text": "Swim into a bubble collumn"
+        "text": "Swim into a bubble column"
       },
       "frame": "task",
       "show_toast": true,
